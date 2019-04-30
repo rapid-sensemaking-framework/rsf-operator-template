@@ -8,7 +8,7 @@ describe('#rsfModuleName', () => {
     context('when timeout is reached, regardless if nothing has happened', function () {
         it('should early exit and return 0 results', done => {
             const maxTime = 1000 // milliseconds
-            rsfModuleName(1000, [], results => {
+            rsfModuleName(maxTime, [], results => {
                 expect(results.length).to.equal(0)
                 done()
             })
