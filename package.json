@@ -13,7 +13,7 @@
   "author": "",
   "license": "GPL-3.0",
   "dependencies": {
-    "rsf-contactable": "0.0.5",
+    "rsf-contactable": "0.0.71",
     "rsf-reader-writer": "0.0.1"
   },
   "devDependencies": {
