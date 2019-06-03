@@ -55,7 +55,7 @@ module.exports.main = (dir) => {
 
     // change rsfModuleName to your module name :)
     rsfModuleName(MAX_TIME, contactables, results => {
-        // this save the output to a file
+        // this saves the output to a file
         writeOutput(dir, results)
         // this exits the process with 'success' status
         // use exit code 1 to show error
